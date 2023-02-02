@@ -1,0 +1,26 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>글 목록</title>
+</head>
+<body>
+    <h1>글 목록</h1>
+    <button id="showModal" onclick="show()">글 작성</button>
+    <div id="postModal">
+        <div id="post">
+            <form id="form">
+                <input name="title" placeholder="제목">
+                <input name="content" placeholder="내용">
+                <input type="file" name="image">
+                <select id="category" name="category" placeholder="카테고리">
+                    <option value="1">스포츠</option>
+                    <option value="2">경제</option>
+                    <option value="3">맛집</option>
+                </select>
+            </form>
+            <button id="closeModal" onclick="close()">나가기</button>
+            <button id="" onclick="submitArticle()">글 작성</button>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="get.js"></script>
